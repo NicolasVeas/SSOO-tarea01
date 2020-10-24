@@ -17,7 +17,7 @@ esta señal recibe como parametros dos variables, la primera es una señal de cu
 Permite hacer una pausa por una determinada cantidad de segundos en la ejecución de un programa.
 
 ##### -> void my_handler(int senal): 
-Esta controla la señales que estan en espera, si una señal no se encuentra dentro de esta funcion no sera controlada, aca controlamos las señales de numero SIGUSR1 y SIGINT, la primera al ser llamada imprime la hora actual del sistema, la ultima es para salir con CTRL+C del programa.
+Esta controla la señales que estan en espera, si una señal no se encuentra dentro de esta funcion no sera controlada, aca controlamos las señales de numero SIGUSR1 y SIGINT, la primera al ser llamada, su control es imprimir la hora actual del sistema, la ultima es para salir con CTRL+C del programa.
 
 ## Librerias
 
